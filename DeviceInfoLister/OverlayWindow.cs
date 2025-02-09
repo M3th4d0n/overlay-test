@@ -158,7 +158,6 @@ public class OverlayWindow {
                 if (controlId == BUTTON1_ID) {
                     NativeMethods.MessageBox(hWnd, "Button 1 clicked!", "Notification", 0);
                     NativeMethods.Beep(750, 300);
-
                 }
 
                 else if (controlId == BUTTON2_ID) {
