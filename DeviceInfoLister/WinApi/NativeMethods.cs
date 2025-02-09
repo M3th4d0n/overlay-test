@@ -31,7 +31,11 @@ public static class NativeMethods {
     [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)]
     public static extern ushort RegisterClassEx(ref WNDCLASSEX lpwcx);
 
+    [DllImport("kernel32.dll")]
+    public static extern bool Beep(uint dwFreq, uint dwDuration);
+    
     [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)]
+    
     public static extern IntPtr CreateWindowEx(
         int dwExStyle,
         string lpClassName,

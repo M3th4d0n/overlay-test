@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DeviceInfoLister")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ebfdd8453f6a18bdf32c3923131f5980fa93c06")]
 [assembly: System.Reflection.AssemblyProductAttribute("DeviceInfoLister")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DeviceInfoLister")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

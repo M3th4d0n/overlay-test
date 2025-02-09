@@ -7,7 +7,7 @@ public class OverlayWindow {
     private const int BUTTON1_ID = 101;
     private const int BUTTON2_ID = 102;
     
-    private const int COLOR_WINDOW = 1; // transparency overlay backunderground yopta 
+    private const int COLOR_WINDOW = 0; // transparency overlay backunderground yopta 
     private IntPtr hInstance;
     private IntPtr hWnd;
 
@@ -155,10 +155,17 @@ public class OverlayWindow {
             case NativeMethods.WM_COMMAND: {
 
                 var controlId = (int)((uint)wParam & 0xFFFF);
-                if (controlId == BUTTON1_ID)
+                if (controlId == BUTTON1_ID) {
                     NativeMethods.MessageBox(hWnd, "Button 1 clicked!", "Notification", 0);
-                else if (controlId == BUTTON2_ID)
+                    NativeMethods.Beep(750, 300);
+
+                }
+
+                else if (controlId == BUTTON2_ID) {
                     NativeMethods.MessageBox(hWnd, "Button 2 clicked!", "Notification", 0);
+                    NativeMethods.Beep(5000, 600); // hihi haha
+
+                }
             }
                 break;
 
