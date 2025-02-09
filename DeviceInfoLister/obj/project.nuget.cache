@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "aL8fHbke3O8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nulll\\RiderProjects\\DeviceInfoLister\\DeviceInfoLister\\DeviceInfoLister.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nulll\\.nuget\\packages\\system.codedom\\9.0.1\\system.codedom.9.0.1.nupkg.sha512",
+    "C:\\Users\\nulll\\.nuget\\packages\\system.management\\9.0.1\\system.management.9.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
