@@ -11,4 +11,11 @@
         <PackageReference Include="System.Management" Version="9.0.1"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="meepmerp.wav" />
+      <AdditionalFiles Include="meepmerp.wav">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </AdditionalFiles>
+    </ItemGroup>
+
 </Project>

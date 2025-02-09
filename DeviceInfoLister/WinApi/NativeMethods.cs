@@ -34,6 +34,16 @@ public static class NativeMethods {
     [DllImport("kernel32.dll")]
     public static extern bool Beep(uint dwFreq, uint dwDuration);
     
+    public const uint SND_SYNC = 0x0000;         
+    public const uint SND_ASYNC = 0x0001;        
+    public const uint SND_NODEFAULT = 0x0002;      
+    public const uint SND_FILENAME = 0x00020000;   
+    public const uint SND_RESOURCE = 0x00040004;   
+
+    [DllImport("winmm.dll", SetLastError = true, CharSet = CharSet.Auto)]
+    public static extern bool PlaySound(string pszSound, IntPtr hmod, uint fdwSound);
+    
+    
     [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)]
     
     public static extern IntPtr CreateWindowEx(

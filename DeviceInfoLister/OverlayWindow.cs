@@ -1,6 +1,7 @@
 ﻿using System.Runtime.InteropServices;
 using OverlayApp.WinApi;
 
+
 namespace OverlayApp;
 
 public class OverlayWindow {
@@ -156,13 +157,15 @@ public class OverlayWindow {
 
                 var controlId = (int)((uint)wParam & 0xFFFF);
                 if (controlId == BUTTON1_ID) {
+                    NativeMethods.PlaySound("meepmerp.wav", IntPtr.Zero, NativeMethods.SND_ASYNC | NativeMethods.SND_FILENAME);
                     NativeMethods.MessageBox(hWnd, "Button 1 clicked!", "Notification", 0);
-                    NativeMethods.Beep(750, 300);
+                    
                 }
 
                 else if (controlId == BUTTON2_ID) {
+                    NativeMethods.PlaySound("meepmerp.wav", IntPtr.Zero, NativeMethods.SND_ASYNC | NativeMethods.SND_FILENAME);
                     NativeMethods.MessageBox(hWnd, "Button 2 clicked!", "Notification", 0);
-                    NativeMethods.Beep(5000, 600); // hihi haha
+                    
                 }
             }
                 break;

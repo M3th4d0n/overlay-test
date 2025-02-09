@@ -18,3 +18,4 @@ C:\Users\nulll\RiderProjects\DeviceInfoLister\DeviceInfoLister\obj\Debug\net9.0\
 C:\Users\nulll\RiderProjects\DeviceInfoLister\DeviceInfoLister\obj\Debug\net9.0\DeviceInfoLister.genruntimeconfig.cache
 C:\Users\nulll\RiderProjects\DeviceInfoLister\DeviceInfoLister\obj\Debug\net9.0\ref\DeviceInfoLister.dll
 C:\Users\nulll\RiderProjects\DeviceInfoLister\DeviceInfoLister\obj\Debug\net9.0\DeviceInfoLister.sourcelink.json
+C:\Users\nulll\RiderProjects\DeviceInfoLister\DeviceInfoLister\bin\Debug\net9.0\meepmerp.wav
